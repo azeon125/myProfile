@@ -1,0 +1,157 @@
+
+
+#contact-page>section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#contact-page>section>:first-child{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact-page>section>:last-child{
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+
+#contact-page>section>:first-child>div{
+    width: 100%;
+    height: 100%;
+
+}
+#contact-page>section>:first-child>div>h1{
+    position: relative;
+    color: blue;
+    text-align: center;
+}
+#contact-page>section>:first-child>div>h1::before{
+    position: absolute;
+    content: " ";
+    width: 35%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 10%;
+    height: 2px;
+    background-color: black;
+}
+#contact-page>section>:first-child>div>h1::after{
+    position: absolute;
+    content: " ";
+    width: 35%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 2px;
+    right: 10%;
+    background-color: #000000;
+}
+#contact-page>section>:last-child>:first-child{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+}
+#contact-page>section>:last-child>:last-child{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+}
+#contact-page>section>:last-child>:first-child>h3{
+    font-size: 2em;
+    padding-left: 5%;
+}
+#contact-page>section>:last-child>:first-child form{
+    display: flex;
+    padding-left: 5%;
+    flex-direction: column;
+    height: 50%;
+    width: 80%;
+}
+#contact-page>section>:last-child>:first-child form >textarea{
+    height: 40%;
+   margin-bottom: 2%;
+}
+#contact-page>section>:last-child>:first-child form >div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+
+   margin-bottom: 2%;
+
+}
+#contact-page>section>:last-child>:first-child form >div>input{
+    width: 40%;
+    height: 100%;
+
+}
+#contact-page>section>:last-child>:first-child form >input{
+   margin-bottom: 2%;
+    height: 15%;
+
+
+}
+#contact-page>section>:last-child>:first-child form>button{
+    width: 20%;
+    padding: 1%;
+    border: deepskyblue solid 2px;
+    color: deepskyblue;
+}
+
+#contact-page>section>:last-child>:last-child > aside{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding-top: 5%;
+}
+#contact-page>section>:last-child>:last-child > aside div{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
+
+#contact-page>section>:last-child>:last-child > aside div>img{
+    width: 10%;
+}
+#contact-page>section>:last-child>:last-child > aside div>span{
+   padding-left: 2%;
+
+}
+
+
+
+ /*footer =========================>*/
+
+
+body>footer{
+    width: 100vw;
+    height: 20vh;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

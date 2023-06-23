@@ -1,0 +1,211 @@
+
+#service-page{
+
+}
+#service-page>section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#service-page>section>:first-child{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#service-page>section>:last-child{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#service-page>section>:first-child>div{
+    width: 100%;
+    height: 100%;
+
+}
+#service-page>section>:first-child>div>h1{
+    position: relative;
+    color: blue;
+    text-align: center;
+}
+#service-page>section>:first-child>div>h1::before{
+    position: absolute;
+    content: " ";
+    width: 35%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 10%;
+    height: 2px;
+    background-color: black;
+}
+#service-page>section>:first-child>div>h1::after{
+    position: absolute;
+    content: " ";
+    width: 35%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 2px;
+    right: 10%;
+    background-color: #000000;
+}
+
+#service-page>section>:last-child>section{
+    width: 80%;
+    height: 80%;
+   display: flex;
+    flex-wrap: wrap;
+}
+#service-page>section>:last-child>section>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   width: 25vw;
+    height: 40%;
+   margin: 1%;
+    border-radius: 12px;
+    color: white;
+    text-shadow: 0 0 10px black ,0 0 10px black;
+  border: #000000 solid 2px;
+    box-shadow: 0 0 2px black;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#service-page>section>:last-child>section>div>h3{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding-top: 20%;
+    text-align: center;
+    background-color: rgba(149, 4, 192, 0.43);
+
+}
+#service-page>section>:last-child>section>div:nth-child(1){
+    background-image: url("../img/service/1.jpg");
+}
+#service-page>section>:last-child>section>div:nth-child(2){
+    background-image: url("../img/service/2.webp");
+}
+#service-page>section>:last-child>section>div:nth-child(3){
+    background-image: url("../img/service/3.jpeg");
+}
+#service-page>section>:last-child>section>div:nth-child(4){
+    background-image: url("../img/service/4.jpg");
+}
+#service-page>section>:last-child>section>div:nth-child(5){
+    background-image: url("../img/service/5.jpg");
+}
+#service-page>section>:last-child>section>div:nth-child(6){
+    background-image: url("../img/service/6.jpg");
+}
+     /*works page==============================================================*/
+
+
+
+
+
+#works-page>section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#works-page>section>:first-child{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#works-page>section>:last-child{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#works-page>section>:first-child>div{
+    width: 100%;
+    height: 100%;
+
+}
+#works-page>section>:first-child>div>h1{
+    position: relative;
+    color: blue;
+    text-align: center;
+}
+#works-page>section>:first-child>div>h1::before{
+    position: absolute;
+    content: " ";
+    width: 35%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 10%;
+    height: 2px;
+    background-color: black;
+}
+#works-page>section>:first-child>div>h1::after{
+    position: absolute;
+    content: " ";
+    width: 35%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 2px;
+    right: 10%;
+    background-color: #000000;
+}
+
+#works-page>section>:last-child>section{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#works-page>section>:last-child>section>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25vw;
+    height: 40%;
+    margin: 1%;
+    border-radius: 12px;
+    color: white;
+    background-color: #16395e;
+    border: #000000 solid 2px;
+    box-shadow: 0 0 2px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

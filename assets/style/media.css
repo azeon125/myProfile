@@ -1,0 +1,239 @@
+
+@media all  and (min-width: 350px) and (max-width: 700px){
+    body>header{
+        display: none;
+    }
+    body>main>main{
+        padding-top: 0;
+    }
+
+    /*Home Page=============================*/
+    #home-page{
+        margin-top: 0;
+        padding-top: 0;
+        height: 100vh;
+    }
+    #home-page>section>:first-child{
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    #home-page>section>:last-child {
+      display: none;
+    }
+
+    #home-page>section>:first-child>article{
+        text-align: center;
+    }
+    #home-page>section>:first-child>section{
+        align-items: center;
+    }
+
+
+  /* About Page============================*/
+    #about-me-page{
+        padding-top: 0;
+    }
+
+    #about-me-page > section > :first-child{
+        display: none;
+        height: 100%;
+    }
+    #about-me-page > section > :last-child{
+        width: 100%;
+    }
+    #about-me-page > section > :last-child::before{
+        content: "About Me";
+        width: 100%;
+        font-size: 2em;
+        color: #000000;
+        text-align: center;
+        margin: 5px;
+
+    }
+    #about-me-page > section > :last-child>article{
+        height: 70%;
+        text-align: center;
+    }
+    #about-me-page > section > :last-child>section{
+        height: 30%;
+    }
+
+    #about-me-page > section > :last-child > section > :first-child > div > img{
+        width: 100%;
+    }
+
+    #about-me-page > section > :last-child > section > :last-child{
+        padding-right: 0;
+    }
+
+  /*Skill Page=======================*/
+    #skill-page{
+        height: auto;
+    }
+    #skill-page > section > :nth-child(1) > div > h1::before{
+        left: 2%;
+    }
+    #skill-page > section > :nth-child(1) > div > h1::after{
+        right: 2%;
+    }
+    #skill-page > section > :nth-child(2){
+        flex-direction: column;
+        height: 70vh;
+    }
+    #skill-page#skill-page > section > :nth-child(2) > aside{
+        height: 25%;
+        align-items: center;
+        width: 100%;
+    }
+    #skill-page#skill-page > section > :nth-child(2) > aside > :last-child{
+        width: 80%;
+
+    }
+
+
+    #skill-page > section > :nth-child(3){
+        height: 80vh;
+    }
+    #skill-page#skill-page > section > :nth-child(3)>figure{
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    #skill-page#skill-page > section > :nth-child(3)>figure>div{
+        width: 30%;
+
+    }
+    #skill-page#skill-page > section > :nth-child(3)>figure>div > img{
+        width: 70%;
+    }
+
+
+       /* Experience Page=================*/
+
+    #experience-page>section>:first-child>div>h1::before{
+        left: 2%;
+        width: 25%;
+    }
+    #experience-page>section>:first-child>div>h1::after{
+        width: 25%;
+        right: 2%;
+    }
+    #experience-page>section>section h3{
+        padding-left: 0;
+        text-align: center;
+    }
+    #experience-page>section>section p{
+        padding-left: 0;
+        text-align: center;
+    }
+
+    /* Education Page=================*/
+
+    #education-page>section>:first-child>div h1::before{
+        left: 2%;
+        width: 25%;
+    }
+    #education-page>section>:first-child>div h1::after{
+       right: 2%;
+        width: 25%;
+    }
+    #education-page>section>section h3{
+        padding-left: 0;
+        text-align: center;
+    }
+    #education-page>section>section p{
+        padding-left: 0;
+        text-align: center;
+    }
+
+    /* Service Page Page=================*/
+
+    #service-page>section>:first-child>div>h1::before{
+        left: 2%;
+        width: 25%;
+    }
+    #service-page>section>:first-child>div>h1::after{
+        right: 2%;
+        width: 25%;
+    }
+    #service-page>section>:last-child{
+        height: 100vh;
+    }
+    #service-page>section>:last-child>section{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #service-page>section>:last-child>section>div{
+        width: 80vw;
+    }
+    #service-page>section>:last-child>section>div>h3{
+        padding-top: 8%;
+    }
+
+    /* Works Page Page=================*/
+
+    #works-page{
+        display: none;
+    }
+
+
+    /* Contact Page Page=================*/
+
+    #contact-page{
+        height: auto;
+    }
+    #contact-page>section>:first-child>div>h1::before{
+        left: 2%;
+        width: 25%;
+    }
+    #contact-page>section>:first-child>div>h1::after{
+        right: 2%;
+        width: 25%;
+    }
+
+    #contact-page>section>:last-child{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contact-page>section>:last-child>:first-child{
+        width: 100%;
+        height: 60vh;
+    }
+
+    #contact-page>section>:last-child>:first-child>h3{
+        padding-left: 0;
+    }
+    #contact-page>section>:last-child>:first-child form{
+        padding-left: 0;
+        width: 90%;
+        height: 70%;
+    }
+    #contact-page>section>:last-child>:first-child form input{
+            border: black solid 1px ;
+    }
+    #contact-page>section>:last-child>:first-child form textarea{
+            border: black solid 1px ;
+
+    }
+    #contact-page>section>:last-child>:first-child form>button{
+        align-self: center;
+    }
+    #contact-page>section>:last-child>:last-child{
+        width: 100%;
+    }
+    #contact-page>section>:last-child>:last-child > aside{
+        padding-bottom: 5%;
+    }
+    #contact-page>section>:last-child>:last-child>iframe{
+        box-shadow: 0 0 5px blue;
+    }
+
+
+
+
+}

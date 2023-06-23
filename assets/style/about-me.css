@@ -1,0 +1,113 @@
+
+#about-me-page {
+    background-color: #429BFC;
+    z-index: 1;
+   height: 100vh;
+}
+
+#about-me-page > section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#about-me-page > section > :first-child {
+    width: 30%;
+    height: 100%;
+    display: flex;
+}
+
+#about-me-page > section > :last-child {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*Left section style ============*/
+
+#about-me-page > section > :first-child > figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-me-page > section > :first-child > figure > img {
+    background: blue;
+    width: 100%;
+    padding: 5px;
+}
+
+
+/*Right section style ============*/
+
+#about-me-page > section > :last-child > article {
+    font-size: 1.5em;
+    width: 90%;
+    color: white;
+    padding-right: 2%;
+}
+
+#about-me-page > section > :last-child > section {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+}
+
+#about-me-page > section > :last-child > section > :first-child {
+    display: flex;
+    height: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+#about-me-page > section > :last-child > section > :last-child {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20%;
+    color: white;
+    height: 50%;
+}
+
+
+#about-me-page > section > :last-child > section > :first-child > div {
+
+    flex-grow: 1;
+}
+
+#about-me-page > section > :last-child > section > :first-child > div > img {
+    width: 50%;
+}
+
+
+#about-me-page > section > :last-child > section > :last-child > div {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: black solid 1px;
+    background-color: darkblue;
+    cursor: pointer;
+
+}
+
+#about-me-page > section > :last-child > section > :last-child > div:hover {
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
