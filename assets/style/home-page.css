@@ -1,0 +1,116 @@
+
+
+#home-page{
+    width: 100%;
+    background-color: #429BFC;
+    color: white;
+    margin-top: 8vh;
+    border-bottom: black solid 1px;
+}
+#home-page>section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#home-page>section>section{
+    display: flex;
+    height: 100%;
+}
+#home-page>section>:first-child{
+    width: 60%;
+  flex-direction: column;
+ justify-content: end;
+
+}
+#home-page>section>:last-child{
+    width: 40%;
+ height: 100%;
+
+
+}
+/*left section ==============================================*/
+#home-page>section>:first-child>article{
+    width: 100%;
+    height:70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5em;
+
+
+}
+#home-page>section>:first-child>section{
+    width: 100%;
+    height:30%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+}
+#home-page>section>:first-child>article *{
+    margin: 0;
+    margin-bottom: 2%;
+    padding-left: 2%;
+    z-index: 1;
+}
+#home-page>section>:first-child>article>h1{
+    letter-spacing: 5px;
+}
+
+#home-page>section>:first-child>article p{
+    font-size: 1.2em;
+}
+#home-page>section>:first-child>section>div{
+    border:black solid 1px ;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+#home-page>section>:first-child>section>div:hover{
+    background-color: black;
+}
+
+
+
+ /*Right Section=============================================*/
+
+#home-page>section>:last-child>section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+}
+#home-page>section>:last-child>section::before{
+    content: "";
+    position: absolute;
+    width:50vw;
+    height: 50vw;
+    border-radius: 50vw;
+    background-color:  #0372E9;
+;
+    left: -50%;
+    bottom: -15%;
+    z-index: 0;
+
+}
+#home-page>section>:last-child>section>figure{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+}
+
+#home-page>section>:last-child>section>figure>img{
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    z-index: 2;
+    left: -40%;
+
+}
+
