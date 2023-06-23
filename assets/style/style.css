@@ -7,7 +7,8 @@ body{
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    background-color: #005fd0;
+    background-color: #429BFC;
+
 
 }
 body>header{
@@ -17,8 +18,9 @@ body>header{
     margin: 0;
     padding: 0;
     z-index: 10;
-    background-color: rgba(66, 155, 252, 0.85);
+
 }
+
 body>main{
     width: 100vw;
     display: flex;
@@ -48,17 +50,17 @@ body>header>nav>ul{
 }
 body>header>nav>ul li{
     font-size: 2em;
-    flex-grow: 1;
+padding-left:3%;
     height: 100%;
     text-align: center;
-    border: black solid 2px;
-
     z-index:2;
 }
 body>header>nav>ul li a{
     text-decoration: none;
-  color: black;
+  color: #ffffff;
+
 }
 body>header>nav>ul li a:hover{
-  color: cyan;
+  color: #033333;
+    transition: all 1s;
 }
