@@ -100,7 +100,7 @@ margin-right: 8%;
 }
 #about-me-page > section > :last-child > section > :first-child > div:nth-child(3) >a> img {
     width: 29%;
-    border-radius: 20px;
+    border-radius: 12px;
 }
 #about-me-page > section > :last-child > section > :first-child >:last-child> a>img{
     width: 29%;

@@ -80,6 +80,10 @@ margin-top: 8vh;
     font-size: 2em;
     margin-right: 10%;
 }
+#home-page>section>:first-child>section>div>a{
+    color: white;
+    text-decoration: none;
+}
 #home-page>section>:first-child>section>div:hover{
     background-color: black;
 }
