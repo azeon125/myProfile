@@ -31,6 +31,7 @@
     position: relative;
     color: blue;
     text-align: center;
+    font-family: 'Blinker', sans-serif;
 }
 #service-page>section>:first-child>div>h1::before{
     position: absolute;
@@ -78,9 +79,17 @@
     background-repeat: no-repeat;
 
 }
+#service-page>section>:last-child>section>div:hover{
+    font-size: 1.2em;
+    box-shadow: 0 0 10px #15d2ff,0 0 10px #15d2ff,0 0 10px #15d2ff,0 0 10px #15d2ff;
+    transition: all 1s;
+}
 #service-page>section>:last-child>section>div>h3{
     width: 100%;
     height: 100%;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bolder;
+    text-shadow: 0 0 10px black,0 0 10px black,0 0 10px black;
     margin: 0;
     padding-top: 20%;
     text-align: center;
@@ -88,22 +97,22 @@
 
 }
 #service-page>section>:last-child>section>div:nth-child(1){
-    background-image: url("../img/service/1.jpg");
+    background-image: url("../img/service/4.jpg");
 }
 #service-page>section>:last-child>section>div:nth-child(2){
-    background-image: url("../img/service/2.webp");
+    background-image: url("../img/service/6.jpg");
 }
 #service-page>section>:last-child>section>div:nth-child(3){
-    background-image: url("../img/service/3.jpeg");
+    background-image: url("../img/service/2.webp");
 }
 #service-page>section>:last-child>section>div:nth-child(4){
-    background-image: url("../img/service/4.jpg");
+    background-image: url("../img/service/3.jpeg");
 }
 #service-page>section>:last-child>section>div:nth-child(5){
     background-image: url("../img/service/5.jpg");
 }
 #service-page>section>:last-child>section>div:nth-child(6){
-    background-image: url("../img/service/6.jpg");
+    background-image: url("../img/service/1.jpg");
 }
      /*works page==============================================================*/
 
@@ -139,6 +148,7 @@
 #works-page>section>:first-child>div>h1{
     position: relative;
     color: blue;
+    font-family: 'Blinker', sans-serif;
     text-align: center;
 }
 #works-page>section>:first-child>div>h1::before{
@@ -164,13 +174,17 @@
     background-color: #000000;
 }
 
+
+
+
+
 #works-page>section>:last-child>section{
     width: 80%;
     height: 80%;
     display: flex;
     flex-wrap: wrap;
 }
-#works-page>section>:last-child>section>div{
+#works-page>section>:last-child>section> a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,12 +193,36 @@
     height: 40%;
     margin: 1%;
     border-radius: 12px;
-    color: white;
+text-decoration: none;
+    background-image: url("../img/work.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
     background-color: #16395e;
     border: #000000 solid 2px;
-    box-shadow: 0 0 2px black;
+    font-size: 1.2em;
+ position: relative;
 }
+#works-page>section>:last-child>section>a::before{
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background: linear-gradient(to top, rgb(81, 167, 201), rgba(255, 0, 0, 0));
+}
+#works-page>section>:last-child>section>a h3{
+    z-index: 5;
+    padding-top: 20%;
+    color: #ffffff;
+   text-shadow: 0 0 5px #000000;
 
+}
+#works-page>section>:last-child>section>a:hover{
+    box-shadow: 0 0 10px #ca10d0,0 0 10px #15d2ff,0 0 10px #ca10d0,0 0 10px #15d2ff;
+    font-size: 1.5em;
+    transition: all 2s;
+
+}
 
 
 

@@ -35,10 +35,13 @@
 #experience-page>section>section h3{
 padding-left: 5%;
     margin: 5px;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
 }
 #experience-page>section>section p{
 padding-left: 5%;
     margin: 5px;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -58,6 +61,7 @@ padding-left: 5%;
 position: relative;
 color: blue;
 text-align: center;
+    font-family: 'Blinker', sans-serif;
 }
 #experience-page>section>:first-child>div>h1::before{
     position: absolute;

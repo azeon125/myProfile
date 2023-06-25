@@ -22,12 +22,30 @@
     #home-page>section>:last-child {
       display: none;
     }
+    #home-page>section>:first-child>article>h1{
+        font-size: 1.5em;
+        margin-bottom: 11px;
+        padding-left: 0;
+
+    }
+    #home-page>section>:first-child>section>div{
+        margin-right: 0;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #home-page>section>:first-child>article p{
+        padding-left: 0;
+        font-size: 1em;
+      padding-top: 18%;
+    }
 
     #home-page>section>:first-child>article{
         text-align: center;
+        padding-top: 21%;
     }
     #home-page>section>:first-child>section{
         align-items: center;
+        padding-bottom: 10%;
     }
 
 
@@ -62,6 +80,9 @@
 
     #about-me-page > section > :last-child > section > :first-child > div > img{
         width: 100%;
+    }
+    #about-me-page > section > :last-child > section > :first-child > div >a>img{
+        transform: scale(2.1);
     }
 
     #about-me-page > section > :last-child > section > :last-child{
@@ -114,10 +135,10 @@
 
     #experience-page>section>:first-child>div>h1::before{
         left: 2%;
-        width: 25%;
+        width: 21%;
     }
     #experience-page>section>:first-child>div>h1::after{
-        width: 25%;
+        width: 21%;
         right: 2%;
     }
     #experience-page>section>section h3{
@@ -132,12 +153,12 @@
     /* Education Page=================*/
 
     #education-page>section>:first-child>div h1::before{
-        left: 2%;
-        width: 25%;
+        left: -2%;
+        width: 22%;
     }
     #education-page>section>:first-child>div h1::after{
-       right: 2%;
-        width: 25%;
+       right: -2%;
+        width: 22%;
     }
     #education-page>section>section h3{
         padding-left: 0;

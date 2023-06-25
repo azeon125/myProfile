@@ -1,6 +1,6 @@
 
 #skill-page {
-
+    font-family: 'Asul', sans-serif
 
 }
 
@@ -54,6 +54,9 @@
     position: relative;
     color: blue;
     text-align: center;
+    font-family: 'Blinker', sans-serif;
+
+
 }
 
 #skill-page > section > :nth-child(1) > div > h1::before {
@@ -108,13 +111,27 @@
     align-self: center;
 }
 #skill-page#skill-page > section > :nth-child(2) > aside > :last-child>span{
-    width: 50%;
+
+}
+#skillSection>aside>:last-child>:first-child{
     height: 100%;
     background-color: blue;
     display: block;
 }
+#skillSection >:nth-child(1)>:last-child>:first-child{
+    width: 75%;
+}
+#skillSection >:nth-child(2)>:last-child>:first-child{
+    width: 85%;
 
+}
+#skillSection >:nth-child(3)>:last-child>:first-child{
+    width: 85%;
+}
+#skillSection >:nth-child(4)>:last-child>:first-child{
+    width: 90%;
 
+}
 
 /*section Three ==============================================*/
 

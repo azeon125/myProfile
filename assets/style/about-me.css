@@ -1,7 +1,7 @@
 
 #about-me-page {
     background-color: #429BFC;
-    z-index: 1;
+    z-index: 3;
   /* height: 100vh;*/
    height: 100vh;
 
@@ -54,53 +54,71 @@
     width: 90%;
     color: white;
     padding-right: 2%;
+    padding-bottom: 6%;
 }
 
 #about-me-page > section > :last-child > section {
     display: flex;
     width: 90%;
     flex-direction: column;
+   align-items: center;
+
 }
 
 #about-me-page > section > :last-child > section > :first-child {
     display: flex;
     height: 50%;
-    justify-content: space-evenly;
+    justify-content: start;
     align-items: center;
     width: 100%;
+    padding-bottom: 5%;
+
+
 }
 #about-me-page > section > :last-child > section > :last-child {
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
-    padding-right: 20%;
+margin-right: 8%;
     color: white;
     height: 50%;
 }
 
 
 #about-me-page > section > :last-child > section > :first-child > div {
+    width: 25%;
+    padding-left: 4%;
 
-    flex-grow: 1;
 }
 
-#about-me-page > section > :last-child > section > :first-child > div > img {
+#about-me-page > section > :last-child > section > :first-child > div >a> img {
     width: 50%;
 }
+#about-me-page > section > :last-child > section > :first-child > div >a>img:hover{
+    transform: scale(1.1);
+}
+#about-me-page > section > :last-child > section > :first-child > div:nth-child(3) >a> img {
+    width: 29%;
+    border-radius: 20px;
+}
+#about-me-page > section > :last-child > section > :first-child >:last-child> a>img{
+    width: 29%;
+}
 
-
-#about-me-page > section > :last-child > section > :last-child > div {
+#about-me-page > section > :last-child > section > :last-child >a> div {
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
     border: black solid 1px;
     background-color: darkblue;
+    color: white;
+    text-decoration: none;
     cursor: pointer;
 
 }
 
-#about-me-page > section > :last-child > section > :last-child > div:hover {
+#about-me-page > section > :last-child > section > :last-child >a> div:hover {
     background-color: black;
 }
 
